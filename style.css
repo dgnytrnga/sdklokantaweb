@@ -70,13 +70,13 @@ h6 {
 
   .right-first {
     z-index: 20;
-    border-radius: 50px;
+    border-radius: 100px;
     background-color: #d7b58e;
-    width: 77px;
-    height: 77px;
+    width: 60px;
+    height: 60px;
     position: absolute;
-    right: 10px;
-    top: 33px;
+    right: 6%; 
+    top: 7vh; 
   }
 
   .second-image {
@@ -142,25 +142,62 @@ h6 {
   .middle-page { 
     justify-content: center;
     align-items: center;
-    margin-top: -100px;
-    width: 100%;
-    height: 1000px;
+    width: 360;
+    height: 400px;
     color:#c08b4f;
+    text-align: center;
   }
 
   .dinners{
     width: 240px;
+    margin-left: 0px;
   }
 
   .main-dinner{
     border-radius: 100%;
   }
 
-  .dinnernames{
-    margin-left: 10px;
+  .maindinner{
+    margin-left: 0px;
     font-size: 40px;
     font-style: italic;
     text-shadow: 10px;
+
   }
 
+  .maindinner-link{
+    text-decoration: none;
+    color: #c08b4f;
+  }
+
+
+
+}
+
+@media only screen and (max-width: 320px) {
+  .right-first {
+    z-index: 20;
+    border-radius: 100px;
+    background-color: #d7b58e;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 0px;
+    top: 40px;
+  }
+  
+  .image {
+    z-index: 50;
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    width: 300px;
+    margin-top: -100px;
+    left: -5px;
+  }
+
+  .image-1 {
+    width: 300px;
+    height: 450px;
+  }
 }
