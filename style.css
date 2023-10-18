@@ -66,6 +66,8 @@ h6 {
     display: flex;
     justify-content: flex-end;
     background-color: #fff;
+    position: relative;
+    
   }
 
   .right-first {
@@ -75,8 +77,8 @@ h6 {
     width: 60px;
     height: 60px;
     position: absolute;
-    right: 6%; 
-    top: 7vh; 
+    top: 45px;
+    right: -160px;
   }
 
   .second-image {
@@ -137,6 +139,7 @@ h6 {
     display: flex;
     justify-content: center;
     position: relative;
+    top: -100px;
   }
 
   .middle-page { 
@@ -154,7 +157,9 @@ h6 {
   }
 
   .main-dinner{
-    border-radius: 100%;
+    border-radius: 100px;
+    height: 250px;
+    width: 250px;
   }
 
   .maindinner{
@@ -182,8 +187,8 @@ h6 {
     width: 60px;
     height: 60px;
     position: absolute;
-    right: 0px;
-    top: 40px;
+    top: 45px;
+    right: -160px;
   }
   
   .image {
