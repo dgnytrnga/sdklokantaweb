@@ -142,7 +142,7 @@ h6 {
       }
 
       .main-text{
-        font-size: 40px;
+        font-size: 35px;
         font-style: italic;
         text-shadow: 10px;
         color: #c08b4f;
@@ -163,7 +163,7 @@ h6 {
       .dinner-list{
         font-style: italic;
         margin-left: -50px;
-        font-size: 35px;
+        font-size: 30px;
         color: #21522c;
         margin-bottom: 100px;
       }
