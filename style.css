@@ -122,7 +122,7 @@ h6 {
     z-index: 50;
     display: flex;
     justify-content: center;
-    height: 500px;
+    height: 400px;
     width: 350px;
     margin-top: -100px;
     left: -5px;
@@ -130,7 +130,7 @@ h6 {
 
   .image-1 {
     width: 350px;
-    height: 500px;
+    height: 400px;
   }
 
   .middle-main-page {
@@ -163,13 +163,7 @@ h6 {
     width: 250px;
   }
 
-  .maindinner{
-    margin-left: 10px;
-    font-size: 40px;
-    font-style: italic;
-    text-shadow: 10px;
 
-  }
 
   .maindinner-link{
     text-decoration: none;
@@ -196,7 +190,7 @@ h6 {
     z-index: 50;
     display: flex;
     justify-content: center;
-    height: 450px;
+    height: 400px;
     width: 300px;
     margin-top: -100px;
     left: -5px;
@@ -204,6 +198,6 @@ h6 {
 
   .image-1 {
     width: 300px;
-    height: 450px;
+    height: 400px;
   }
 }
