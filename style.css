@@ -50,12 +50,17 @@ h6 {
     display: flex;
     align-items: center;
     flex-direction: column;
-  }
+ }
 
   .main {
     display: flex;
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+ 
   }
 
   .free {
@@ -163,7 +168,13 @@ h6 {
     width: 250px;
   }
 
+  .maindinner{
+    margin-left: 10px;
+    font-size: 40px;
+    font-style: italic;
+    text-shadow: 10px;
 
+  }
 
   .maindinner-link{
     text-decoration: none;
